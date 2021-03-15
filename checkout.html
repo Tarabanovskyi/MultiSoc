@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+   <meta charset="utf-8">
+   <title>MultiSoc</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="scss/style.min.css">
+</head>
+
+
+<body>
+
+   <div class="wrapper">
+      <div class="header__main main-header ">
+         <div class="main-header__content main-header__payment  _container">
+
+
+            <div class="main-header__column_logo">
+               <div class="main-header__logo logo-main">Multisoc</div>
+            </div>
+
+
+         </div>
+      </div>
+      <div class="page__checkout">
+         <div class="page-checkout__container _container">
+            <div class="page-checkout__title title-main-page">
+               <h1>Оформление заказа</h1>
+            </div>
+            <div class="page-checkout__content content-checkout">
+               <div class="content-checkout__top top-checkout">
+
+                  <div class="top-checkout__item">
+                     <div class="top-checkout__order">
+                        <p class="order__title title">Название</p>
+                        <picture>
+                           <source srcset="img/icon/menu_icons/instagram.webp" type="image/webp"><img src="img/icon/menu_icons/instagram.png" alt="" class="order__logo">
+                        </picture>
+                        <div class="order__name">Подписчики Инстаграм</div>
+                     </div>
+                     <div class="top-checkout__quantity">
+                        <p class="quantity__title title">Количество</p>
+                        <div class="border"></div>
+                        <div class="order__number">25 000</div>
+                     </div>
+                     <div class="top-checkout__cost">
+                        <p class="cost__title title">Стоимость</p>
+                        <div class="border"></div>
+                        <div class="order__price rub">10 456</div>
+                     </div>
+                     <div class="top-checkout__delete">
+                        <span></span>
+                     </div>
+                  </div>
+
+
+
+               </div>
+
+               <div class="content-checkout__form">
+                  <div class="form-checkout__title">
+                     <h3>Данные</h3>
+                  </div>
+                  <div class="form-checkout__item ">
+                     <label for="url">Вставьте ссылку<span class="required">*</span></label>
+                     <input id="url" name="url" type="url" value="" aria-required="true" required="" placeholder=" ">
+                     <div class="requirements">Неверный формат данных</div>
+                     <div class="help"> <span>?</span>
+                        <div class="help__popup">
+                           <div class="help__info"><a href="">Посмотреть</a> правильный формат ссылок</div>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="form-checkout__item ">
+                     <label for="email">Почта<span class="required">*</span></label>
+                     <input id="email" name="email" type="email" value="" aria-required="true" required="" placeholder=" ">
+                     <div class="requirements">Неверный формат данных</div>
+                  </div>
+                  <div class="form-checkout__item ">
+                     <label for="phone">Номер телефона</label>
+                     <input id="phone" name="phone" type="tel" value="" aria-required="true" required="" pattern="[0-9]{10,12}" placeholder=" ">
+                     <div class="requirements">Неверный формат данных</div>
+                  </div>
+
+               </div>
+               <div class="content-checkout__payments">
+                  <div class="payments-checkout__title">
+                     <h3>Способ оплаты</h3>
+                  </div>
+                  <ul class="payments-checkout__list">
+
+
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="1" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/wallet.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/wallet.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Баланс на сайте</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="2" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/mastercard.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/mastercard.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Mastercard</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="3" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/visa.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/visa.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Visa</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="4" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/qiwi.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/qiwi.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>QIWI</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="5" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/yandex.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/yandex.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Яндекс.деньги</span></span>
+                        </label>
+                     </li>
+
+
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="6" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/alfa_bank.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/alfa_bank.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Альфа Банк</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="7" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/apple_pay.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/apple_pay.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Apple Pay</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="8" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/webmoney.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/webmoney.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Webmoney</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="9" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/mir.svg" type="image/webp"><img src="img/icon/page_checkout/checkout_payments/mir.svg"
+                                 alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Карта Мир</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="10" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/maestro.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/maestro.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Maestro</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="11" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/tele2.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/tele2.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Tele2</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="12" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/megafon.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/megafon.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>MegaFon</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="13" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/beeline.svg" type="image/webp"><img
+                                 src="img/icon/page_checkout/checkout_payments/beeline.svg" alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>Beeline</span></span>
+                        </label>
+                     </li>
+                     <li class="cell">
+                        <label class="payments-checkout__checkbox checkbox">
+                           <input type="radio" name="form[]" data-error="Ошибка" data-value="14" class="checkbox__input">
+                           <picture>
+                              <source srcset="img/icon/page_checkout/checkout_payments/mtc.svg" type="image/webp"><img src="img/icon/page_checkout/checkout_payments/mtc.svg"
+                                 alt="" class="checkbox__image">
+                           </picture>
+                           <span class="checkbox__text"><span>MTC</span></span>
+                        </label>
+                     </li>
+
+
+
+
+                  </ul>
+               </div>
+
+               <div class="content-checkout__bottom">
+                  <div class="bottom-checkout__item">
+                     <div class="bottom-checkout__pay">
+                        <p class="title"> Итого к оплате:</p><span class="order__price bottom rub">10 456</span>
+                     </div>
+                     <a href="" class="bottom-checkout__button btn">Оформить заказ</a>
+                     <label class="bottom-checkout__regulations ">
+                        <input id="link" name="link" type="checkbox" value="" aria-required="true" required="" class="checkbox__regulations">
+                        <span class="fake__checkbox"></span>
+                        <span>Я прочел и принимаю <a href="">правила сервиса</a></span>
+                     </label>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+
+
+
+   <script src="libs/jquery-3.5.1.min.js"></script>
+   <script src="libs/slick.min.js"></script>
+   <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

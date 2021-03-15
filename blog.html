@@ -1,0 +1,1553 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>MultiSoc</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="scss/style.min.css">
+</head>
+
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+
+      <div class="header__top top-header">
+        <div class="top-header__content _container">
+
+          <div class="top-header__column">
+            <div class="top-header__nav nav">
+              <nav class="nav__body">
+                <ul class="nav__list">
+                  <li>
+                    <a href="#" class="nav__link">Клиентам</a>
+                    <ul class="sub-menu__list">
+                      <div class="sub-menu__list sub-menu__wrap">
+                        <li><a href="#" class="sub-menu__link">Отмена и возврат</a></li>
+                        <li><a href="#" class="sub-menu__link">Информация про оплату</a></li>
+                        <li><a href="#" class="sub-menu__link">Отзывы</a></li>
+                        <li><a href="#" class="sub-menu__link">О нас</a></li>
+                        <li><a href="#" class="sub-menu__link">Контакты</a></li>
+                      </div>
+
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="nav__link">Помощь</a>
+                    <ul class="sub-menu__list">
+                      <div class="sub-menu__list sub-menu__wrap">
+                        <li><a href="#" class="sub-menu__link">Справка</a></li>
+                        <li><a href="#" class="sub-menu__link">Как вставить ссылку</a></li>
+                        <li><a href="#" class="sub-menu__link">Обратиться в поддержку</a></li>
+                      </div>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="top-header__column">
+            <div class="top-header__actions actions-header ">
+              <a data-da="main-header__content, 6, 991" href="users_account.html" class="actions-header__item actions-header__item_login"><span>Личный кабинет</span></a>
+              <div class="pop-up__users-account">
+                <div class="users-account__navigations _container">
+                  <nav class="popup-account__body">
+                    <ul class="popup-account__list fake-for-navigations">
+                      <li><a data-content="my-cabinet" href="" class="popup-account__link _active">— Мой кабинет</a></li>
+                      <li><a data-content="order-list" href="" class="popup-account__link">— Список заказов</a></li>
+                      <li><a data-content="payment-history" href="" class="popup-account__link">— История платежей</a></li>
+                      <li><a data-content="personal-data" href="" class="popup-account__link">— Личные данные</a></li>
+                      <li><a data-content="support-service" href="" class="popup-account__link">— Служба Поддержки</a></li>
+                      <li><a href="" class="popup-account__link">— Выход</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="header__main main-header">
+        <div class="main-header__content _container">
+
+          <div class="main-header__column">
+            <div class="main-header__column_logo">
+
+              <a href="index.html" class="main-header__logo logo-main">Multisoc</a>
+            </div>
+          </div>
+
+          <div class="main-header__column">
+            <div class="main-header__burger burger-header">
+              <a href="#" class="burger-header__btn btn">
+                <div class="btn__burger-lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="btn__title">Создать заказ</div>
+              </a>
+            </div>
+            <div class="mobile-menu__burger burger-mobile">
+              <div class="burger-mobile-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="main-header__column">
+            <div class="main-header__search search-page">
+              <div class="search-page__input">
+                <input autocomplete="off" placeholder="Я ищу..." type="text" name="form[]" data-error="Ошибка" data-value="" class="input">
+              </div>
+            </div>
+          </div>
+          <div class="main-header__column">
+            <a data-da="item-menu, 3, 510" href="#" class="main-header__favorites">
+              <span>0</span>
+            </a>
+          </div>
+          <div class="main-header__column">
+            <div class="main-header__deposit deposit">
+              <span class="deposit__sum rub">0,00</span>
+              <a href="#" class="deposit__dep">Пополнить</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="header__bottom bottom-header">
+        <div class="bottom-header__content _container">
+          <ul class="bottom-header__sale sale">
+            <li><a href="#" class="sale__link">Скидки</a></li>
+            <li><a href="#" class="sale__link">Выгодные наборы</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-header__menu menu-header">
+        <div class="menu-header__content _container">
+
+          <div class="menu-header__column">
+            <div class="menu-header__page page-menu">
+              <div class="page-menu__item item-menu">
+                <div class="item-menu__user user">
+                  <a href="users_account.html" class="user-link"><span>Личный кабинет</span></a>
+                </div>
+                <div class="item-menu__sets">
+                  <a href="#" class="sets-link"><span>Выгодные наборы</span></a>
+                </div>
+              </div>
+              <nav class="page-menu__body">
+                <ul class="page-menu__list">
+                  <li>
+                    <a href="#" class="page-menu__link  instagram">Инстаграм</a>
+
+                    <div class="submenu-page__item submenu__instagram ">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Пользователи социальной сети подписываются на вас.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture> Подписчики
+                          </a>
+                          <span class="submenu-page__text">Любое кол-во лайков на фото, видео в Инстаграме. Продвижение
+                            постов.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Заявки в друзья на профиль. Подписчики для личного
+                            профиля.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Пользователи сохраняют пост. Положительно влияет на
+                            продвижение.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Напишут комменты под фото или видео в Инстаграме. Помогает
+                            продвигать пост.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Больше просматривают публикацию – больше шансов попасть в
+                            рекомендации.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Пользователи делятся записью со своими друзьями. Позволяет
+                            продвигать пост.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Жалобы позволяют заблокировать страницу или пост.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner1.webp" type="image/webp"><img src="img/baner/baner1.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link vk">Вконтакте</a>
+
+                    <div class="submenu-page__item submenu__vk">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="vkontakte.html" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Подписчики в группу или публичную страницу. </span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Лайки на пост, фото, видео. Продвижение постов.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Заявки в друзья на профиль. Подписчики для личного
+                            профиля.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner2.webp" type="image/webp"><img src="img/baner/baner2.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link youtube">Ютуб</a>
+
+                    <div class="submenu-page__item submenu__youtube">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner3.webp" type="image/webp"><img src="img/baner/baner3.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link telegram">Телеграм</a>
+
+                    <div class="submenu-page__item submenu__telegram">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner2.webp" type="image/webp"><img src="img/baner/baner2.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link tiktok">ТикТок</a>
+
+                    <div class="submenu-page__item submenu__tiktok">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner1.webp" type="image/webp"><img src="img/baner/baner1.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link ok">ОК</a>
+
+                    <div class="submenu-page__item submenu__ok">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner3.webp" type="image/webp"><img src="img/baner/baner3.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link twich">Твич</a>
+
+                    <div class="submenu-page__item submenu__twich">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner2.webp" type="image/webp"><img src="img/baner/baner2.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link facebook">Фейсбук</a>
+
+                    <div class="submenu-page__item submenu__facebook">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner1.webp" type="image/webp"><img src="img/baner/baner1.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link itunes">iTunes</a>
+
+                    <div class="submenu-page__item submenu__itunes">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner3.webp" type="image/webp"><img src="img/baner/baner3.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link spotify">Spotify</a>
+
+                    <div class="submenu-page__item submenu__spotify">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner2.webp" type="image/webp"><img src="img/baner/baner2.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                  <li>
+                    <a href="#" class="page-menu__link twitter">Твиттер</a>
+
+                    <div class="submenu-page__item submenu__twitter">
+                      <ul class="submenu-page__list">
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <li>
+                          <a href="#" class="submenu-page__link">
+                            <picture>
+                              <source srcset="img/icon/menu_icons/smile_icons_svg/smile.svg" type="image/webp"><img src="img/icon/menu_icons/smile_icons_svg/smile.svg"
+                                alt="🤩">
+                            </picture>Подписчики
+                          </a>
+                          <span class="submenu-page__text">Вывод сообщества в ТОП благодаря эмуляции активности.</span>
+                        </li>
+                        <a href="#" class="submenu-page__baner">
+                          <div class="wrap-banner">
+                            <picture>
+                              <source srcset="img/baner/baner1.webp" type="image/webp"><img src="img/baner/baner1.jpg" alt="" class="image-banner">
+                            </picture>
+                          </div>
+                        </a>
+                      </ul>
+                    </div>
+
+                  </li>
+                </ul>
+              </nav>
+              <div class="page-menu__item item-menu">
+                <div class="item-menu__support support">
+                  <a href="#" class="support-link"><span>Поддержка клиентов</span></a>
+                </div>
+                <div class="item-menu__reviews">
+                  <a href="#" class="reviews-link"><span>Отзывы</span></a>
+                </div>
+                <div class="item-menu__blog">
+                  <a href="#" class="blog-link"><span>Блог</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <div class="page__blog">
+
+
+
+      <div class="blog-page__container _container">
+
+        <div class="blog-page__wrap">
+          <nav data-da="blog-page__container, 0, 767.98" class="blog-menu__body">
+            <ul class="blog-menu__list blog-menu__top">
+              <li class="tab-new _active">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/new.svg" type="image/webp"><img src="img/icon/blog_icon/menu/new.svg" alt="">
+                </picture><a href="" class="blog-menu__link"> Новые</a>
+              </li>
+              <li class="tab-important">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/important.svg" type="image/webp"><img src="img/icon/blog_icon/menu/important.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Важные</a>
+              </li>
+            </ul>
+            <ul class="blog-menu__list blog-menu__bottom">
+              <li class="menu-bottom__title"> Категории</li>
+              <li class="tab-renewal" class="tab-manual">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/megaphone.svg" type="image/webp"><img src="img/icon/blog_icon/menu/megaphone.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Обновления</a>
+              </li>
+              <li class="tab-manual">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/manual.svg" type="image/webp"><img src="img/icon/blog_icon/menu/manual.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Мануалы</a>
+              </li>
+              <li class="tab-case">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/briefcase.svg" type="image/webp"><img src="img/icon/blog_icon/menu/briefcase.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Кейсы</a>
+              </li>
+              <li class="tab-compilation">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/clipboard.svg" type="image/webp"><img src="img/icon/blog_icon/menu/clipboard.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Подборки</a>
+              </li>
+              <li class="tab-expert">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/rating.svg" type="image/webp"><img src="img/icon/blog_icon/menu/rating.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Эксперты</a>
+              </li>
+              <li class="tab-news">
+                <picture>
+                  <source srcset="img/icon/blog_icon/menu/news.svg" type="image/webp"><img src="img/icon/blog_icon/menu/news.svg" alt="">
+                </picture><a href="" class="blog-menu__link">Новости</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="blog-page__content">
+            <div class="blog-page__post fixed-post">
+              <a href="post.html" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-news">Новости</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>90 советов по раскрутке группы VK</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/favicon/favicon.ico" type="image/webp"><img src="img/favicon/favicon.ico" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/post-26.webp" type="image/webp"><img src="img/blog/post-26.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-new">Новые</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/post-27.webp" type="image/webp"><img src="img/blog/post-27.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-new">Новые</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/post-27.webp" type="image/webp"><img src="img/blog/post-27.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-expert">Эксперты</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-manual">Мануалы</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/post-26.webp" type="image/webp"><img src="img/blog/post-26.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-case">Кейсы</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-important">Важные</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-renewal">Обновления</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-compilation">Подборки</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-page__post ">
+              <a href="#" class="fake-link"></a>
+              <div class="post-blog__image">
+                <picture>
+                  <source srcset="img/blog/retro.webp" type="image/webp"><img src="img/blog/retro.jpg" alt="">
+                </picture>
+                <div class="post-blog__button btn btn-news">Новости</div>
+              </div>
+              <div class="post-blog__title">
+                <h2>Топ соцсетей</h2>
+              </div>
+              <div class="post-blog__bottom">
+                <div class="post-blog__author">
+                  <div class="author-avatar">
+                    <picture>
+                      <source srcset="img/icon/page_catalog/catalog_reviews/user.svg" type="image/webp"><img src="img/icon/page_catalog/catalog_reviews/user.svg" alt="">
+                    </picture>
+                  </div>
+                  <div class="author-name">MultiSoc</div>
+                </div>
+                <div class="post-blog__info">
+                  <span class="post-views">2718</span>
+                  <a href="" class="post-reviews">8</a>
+                </div>
+              </div>
+            </div>
+            <div class="blog-content__button">
+              <a href="">Показать еще</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="product-page__compilations compilations-product">
+          <div class="compilations-product__title">
+            <h3>Услуги в подборках</h3>
+          </div>
+          <div class="compilations-product__column">
+            <div class="compilations-product__item">
+              <ul class="compilations-product__list">
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в вконтакте</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в телеграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в телеграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+              </ul>
+            </div>
+            <div class="compilations-product__item">
+              <ul class="compilations-product__list">
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в вконтакте</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в телеграм</a></li>
+
+              </ul>
+            </div>
+            <div class="compilations-product__item">
+              <ul class="compilations-product__list">
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в вконтакте</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в телеграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+                <li><a class="compilations-product__link" href="">Накрутка подписчиков в инстаграм</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__container _container">
+
+        <div class="top-footer__page">
+          <div class="top-footer__column footer-content">
+            <a href="index.html" class="footer-content__logo logo-main">MULTISOC</a>
+            <div class="footer-content__text text">
+              <p class="text__info">Лидер предоставления услуг продвижения в социальных сетях.</p>
+              <p class="text__info">Все права защищены “MULTISOC” Copyright 2020</p>
+            </div>
+
+          </div>
+          <div class="top-footer__column footer-content">
+
+
+            <div class="footer-content__title">Компания</div>
+            <ul class="footer-content__list">
+              <li>
+                <a href="" class="footer-content__link">О компании</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Вакансии</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Блог</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Условия использования</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Публичная оферта</a>
+              </li>
+            </ul>
+
+
+
+
+          </div>
+
+          <div class="top-footer__column footer-content">
+
+
+            <div class="footer-content__title">Клиентам</div>
+            <ul class="footer-content__list">
+              <li>
+                <a href="" class="footer-content__link">Наши клиенты</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Отзывы</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Техническая поддержка</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Оплата и возврат</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Статусы заказа</a>
+              </li>
+            </ul>
+
+
+
+
+          </div>
+
+          <div class="top-footer__column footer-content">
+
+
+            <div class="footer-content__title">Контакты</div>
+            <ul class="footer-content__list">
+              <li>
+                <a href="" class="footer-content__link">Для сотрудничества</a>
+              </li>
+              <li>
+                <a href="" class="footer-content__link">Офисы</a>
+              </li>
+            </ul>
+            <div class="footer-content__schedule schedule-support">
+              <p class="schedule-support__text"><span>График работы поддержки</span></p>
+              <p class="schedule-support__text">Пн-Пт 08:30-21:00</p>
+              <p class="schedule-support__text">Сб-Вс 08:30-21:00</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="bottom-footer__page bottom-content">
+          <div class="bottom-content__text">Мы принимаем:</div>
+          <div class="bottom-content__pay pay-image">
+            <span class="pay-image__visa"></span>
+            <span class="pay-image__mastercard"></span>
+            <span class="pay-image__webmoney"></span>
+          </div>
+          <a href="#" class="bottom-content__link">Посмотреть все</a>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  <div class="pop-up__catalog ">
+    <div class="popup-content__item content-popup _container">
+      <div class="content-popup__column">
+        <picture>
+          <source srcset="img/icon/menu_icons/vk.svg" type="image/webp"><img src="img/icon/menu_icons/vk.svg" alt="" class="content-popup__image">
+        </picture>
+        <div class="content-popup__info">
+          <h3 class="info__title">Подписчики в вконтакте</h3>
+          <p class="info__text">Жывие подписчики в вконтакте. <span>100% Гарантия возврата денег</span> </p>
+        </div>
+      </div>
+      <div class="content-popup__column">
+        <div class="content-popup__price rub"> <span>от</span> 999</div>
+        <div class="content-popup__button btn">Выбрать</div>
+        <div class="but"></div>
+      </div>
+
+    </div>
+  </div>
+  <!-- =================================================================================== -->
+  <div class="pop-up__page-product">
+    <div class="popup-content__item content-popup _container">
+      <div class="content-popup__column">
+        <picture>
+          <source srcset="img/icon/menu_icons/vk.svg" type="image/webp"><img src="img/icon/menu_icons/vk.svg" alt="" class="content-popup__image">
+        </picture>
+        <div class="content-popup__info">
+          <h3 class="info__title">Лайки в вконтакте</h3>
+          <p class="info__text">Лайки в вконтакте. <span>100% Гарантия возврата денег</span> </p>
+        </div>
+      </div>
+      <div class="content-popup__column">
+        <div class="content-popup__price rub"> 999</div>
+        <a href="vkontakte.html" class="content-popup__button btn">Купить</a>
+        <div class="but"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <script src="libs/jquery-3.5.1.min.js"></script>
+  <script src="libs/slick.min.js"></script>
+  <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
